@@ -1,0 +1,253 @@
+{
+  "schema": "nuxtjp://localized-site/site-config/v1",
+  "siteId": "incus-japan-site",
+  "serviceId": "incus-japan",
+  "origin": "https://incus.jp",
+  "audienceScope": "japan",
+  "defaultLocale": "ja",
+  "fallbackLocale": "en",
+  "prefixDefaultLocale": false,
+  "locales": [
+    "ja",
+    "en"
+  ],
+  "externalActions": false,
+  "content": {
+    "ja": {
+      "brand": "Incus Japan",
+      "tagline": "Incusを日本語で、安全に検証するための案内所。",
+      "summary": "Incusの日本語情報、導入・移行・運用手順、上流との差分と検証環境を明示して公開します。",
+      "features": [
+        {
+          "id": "upstream",
+          "title": "上流への参照",
+          "summary": "対象バージョンと公式資料を各ページで示します。"
+        },
+        {
+          "id": "verified-guides",
+          "title": "検証済み手順",
+          "summary": "OS、コマンド、期待結果、戻し方をそろえます。"
+        },
+        {
+          "id": "operations",
+          "title": "論理分離パッケージ",
+          "summary": "Project、Network、Profileの分離状態をCrowsiへ安全に渡すRead-only Adapterを案内します。"
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "概要",
+          "summary": "Incusの日本語情報、導入・移行・運用手順、上流との差分と検証環境を明示して公開します。",
+          "sections": [
+            {
+              "id": "purpose",
+              "title": "目的",
+              "body": [
+                "Incusの日本語情報、導入・移行・運用手順、上流との差分と検証環境を明示して公開します。"
+              ]
+            },
+            {
+              "id": "offering",
+              "title": "提供するもの",
+              "body": [
+                "対象バージョンと公式資料を各ページで示します。",
+                "OS、コマンド、期待結果、戻し方をそろえます。",
+                "Project、Network、Profileの論理分離と、秘密情報を除いたRead-only Adapterの利用方法を整理します。"
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "責任境界",
+              "body": [
+                "Linux Containersプロジェクトの公式日本語サイトではありません。最新仕様、セキュリティ情報、商標は公式上流を正本とします。"
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "はじめに",
+          "summary": "対象Incusバージョンと検証OSを確認し、破壊的操作の警告とロールバック手順を読んでから検証環境で実行してください。",
+          "sections": [
+            {
+              "id": "start",
+              "title": "利用の流れ",
+              "body": [
+                "対象Incusバージョンと検証OSを確認し、破壊的操作の警告とロールバック手順を読んでから検証環境で実行してください。"
+              ]
+            },
+            {
+              "id": "language",
+              "title": "言語とURL",
+              "body": [
+                "日本語と英語は同じ情報構造を持ち、言語切替後も同じページを表示します。"
+              ]
+            },
+            {
+              "id": "availability",
+              "title": "現在の提供状態",
+              "body": [
+                "このリポジトリはローカル検証用です。公開、認証、課金、外部サービス変更は行いません。"
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "安全性と公開境界",
+          "summary": "Linux Containersプロジェクトの公式日本語サイトではありません。最新仕様、セキュリティ情報、商標は公式上流を正本とします。",
+          "sections": [
+            {
+              "id": "public-data",
+              "title": "公開する情報",
+              "body": [
+                "Incus Japanの公開面には、公開承認された説明と文書だけを含めます。"
+              ]
+            },
+            {
+              "id": "private-data",
+              "title": "保持しない情報",
+              "body": [
+                "資格情報、顧客情報、個人の機微情報、非公開ソース、解析識別子は設定に含めません。"
+              ]
+            },
+            {
+              "id": "limits",
+              "title": "制約",
+              "body": [
+                "Linux Containersプロジェクトの公式日本語サイトではありません。最新仕様、セキュリティ情報、商標は公式上流を正本とします。"
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "プライバシー",
+        "summary": "このローカル公開面はCookie、解析識別子、問い合わせ内容を収集しません。収集機能は別途の審査と同意設計後にのみ追加します。"
+      },
+      "contact": {
+        "label": "お問い合わせ",
+        "summary": "問い合わせ送信機能は未接続です。責任部門と保管条件を承認した公開窓口だけを将来表示します。"
+      }
+    },
+    "en": {
+      "brand": "Incus Japan",
+      "tagline": "A Japanese guide for verifying Incus safely.",
+      "summary": "Japanese Incus information, installation, migration, and operating guides with explicit upstream differences and test environments.",
+      "features": [
+        {
+          "id": "upstream",
+          "title": "Upstream references",
+          "summary": "Identifies the applicable version and official source on each page."
+        },
+        {
+          "id": "verified-guides",
+          "title": "Verified guides",
+          "summary": "Includes OS, commands, expected results, and rollback steps."
+        },
+        {
+          "id": "operations",
+          "title": "Logical isolation package",
+          "summary": "Documents the read-only adapter that safely projects Project, Network, and Profile isolation to Crowsi."
+        }
+      ],
+      "docs": {
+        "overview": {
+          "slug": "/docs",
+          "title": "Overview",
+          "summary": "Japanese Incus information, installation, migration, and operating guides with explicit upstream differences and test environments.",
+          "sections": [
+            {
+              "id": "purpose",
+              "title": "Purpose",
+              "body": [
+                "Japanese Incus information, installation, migration, and operating guides with explicit upstream differences and test environments."
+              ]
+            },
+            {
+              "id": "offering",
+              "title": "What we provide",
+              "body": [
+                "Identifies the applicable version and official source on each page.",
+                "Includes OS, commands, expected results, and rollback steps.",
+                "Documents logical separation with Projects, Networks, and Profiles and the read-only adapter that excludes sensitive connection data."
+              ]
+            },
+            {
+              "id": "boundary",
+              "title": "Responsibility boundary",
+              "body": [
+                "This is not the official Japanese site of the Linux Containers project. Official upstream sources remain authoritative for current specifications, security, and trademarks."
+              ]
+            }
+          ]
+        },
+        "gettingStarted": {
+          "slug": "/docs/getting-started",
+          "title": "Getting started",
+          "summary": "Confirm the Incus version and tested OS, then read destructive-operation warnings and rollback steps before using a test environment.",
+          "sections": [
+            {
+              "id": "start",
+              "title": "How to begin",
+              "body": [
+                "Confirm the Incus version and tested OS, then read destructive-operation warnings and rollback steps before using a test environment."
+              ]
+            },
+            {
+              "id": "language",
+              "title": "Languages and URLs",
+              "body": [
+                "Japanese and English use the same information structure and preserve the current page when switching language."
+              ]
+            },
+            {
+              "id": "availability",
+              "title": "Current availability",
+              "body": [
+                "This repository is for local verification. It does not publish, authenticate, bill, or mutate external services."
+              ]
+            }
+          ]
+        },
+        "security": {
+          "slug": "/docs/security",
+          "title": "Safety and publication boundary",
+          "summary": "This is not the official Japanese site of the Linux Containers project. Official upstream sources remain authoritative for current specifications, security, and trademarks.",
+          "sections": [
+            {
+              "id": "public-data",
+              "title": "Public information",
+              "body": [
+                "The Incus Japan public surface contains only approved public descriptions and documentation."
+              ]
+            },
+            {
+              "id": "private-data",
+              "title": "Information not held here",
+              "body": [
+                "Configuration excludes credentials, customer records, sensitive personal data, private source, and analytics identifiers."
+              ]
+            },
+            {
+              "id": "limits",
+              "title": "Limitations",
+              "body": [
+                "This is not the official Japanese site of the Linux Containers project. Official upstream sources remain authoritative for current specifications, security, and trademarks."
+              ]
+            }
+          ]
+        }
+      },
+      "privacy": {
+        "label": "Privacy",
+        "summary": "This local public surface collects no cookies, analytics identifiers, or inquiry content. Collection may be added only after separate review and consent design."
+      },
+      "contact": {
+        "label": "Contact",
+        "summary": "Inquiry submission is not connected. A public channel will be shown only after its responsible team and retention terms are approved."
+      }
+    }
+  }
+}
