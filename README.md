@@ -1,48 +1,18 @@
-# @software-platform-oss/incus-japan-site
+# incus-japan-site
 
-Incusの導入・移行・運用方法を日本語で案内できます。
-
-## 利用前の確認
-
-実装済みの範囲、必要な依存関係、検証コマンドを以下の英語説明に併記しています。操作・配備・公開は、それぞれの権限と設定を確認してから実施してください。
-
-現在の依存設定にはGit対象外のローカル成果物が含まれます。配布経路が整うまでは、cloneだけで依存を導入できません。
-
-## 使い方
-
-リポジトリ内のサンプル・スキーマ・実装を確認し、用途に必要な入力を明示して利用します。下記のGetting startedに、現行設定に対応する検証コマンドを示しています。
-
-検証結果は実行した範囲だけを示します。未実装の機能、未設定の接続、配備環境の確認を合格扱いにしないでください。
-
-## English
-
-Provide Japanese guidance for adopting, migrating and operating Incus.
-
-## What you can do
-
-- Maintain reviewed overview and getting-started content.
-- Validate Japanese/English content and preview the configured site.
-
-## Current scope
-
-Operational examples require review for the reader’s own environment. The required localized-site package is referenced as an excluded local archive; a fresh clone cannot install it until an approved distribution path is available. No deployment is performed by these instructions.
-
-## Getting started
-
-The manifest currently requires locally supplied package archives: `@nuxtjp/localized-site`. These archives are excluded from Git. Obtain the exact approved dependency artifacts before installing; a fresh clone alone is not sufficient. Registry distribution remains pending.
-
-Use `pnpm@10.29.3` and the Node.js version declared in `engines` in `package.json`. Run from this repository:
+Organization-managed public sites built with Nuxt. All application/layout/page/CSS/SEO implementation is supplied by `@nuxtjp/localized-site`; `sites/` contains site content, static assets, legal notices and Cloudflare configuration. Site-specific Nuxt applications or layouts are rejected.
 
 ```sh
 pnpm install --frozen-lockfile
+pnpm site list
 pnpm validate:content
-pnpm typecheck
 pnpm test
-pnpm build
+pnpm site typecheck SITE_ID
+pnpm site build SITE_ID
 ```
 
-## Documentation and source
+Build output is isolated at `.output/SITE_ID/public`; generated Nuxt types are at `.nuxt/SITE_ID`. Cloudflare Workers builds each site separately from this repository root using the explicit site key and its Wrangler configuration. Shared package/lock changes require all sites to be checked. Site-only content changes require that site to be checked.
 
-[Usage guide](docs/getting-started.md)
+The organization runner uses `@nuxtjp/localized-site@0.1.4` from the official npm registry. A frozen install uses the committed lockfile and needs no neighboring repositories or local archives. Cloudflare connections, domains and deployment settings are managed separately. Existing domains and service IDs are retained.
 
-[Verification cases](test) · [Contributing](CONTRIBUTING.md) · [Security reporting](SECURITY.md) · [License](LICENSE) · [Attribution notices](NOTICE)
+Software LICENSE and each site's LICENSE-ASSETS/NOTICE remain applicable; repository consolidation does not relicense content.
