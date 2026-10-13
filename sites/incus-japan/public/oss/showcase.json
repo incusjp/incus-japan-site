@@ -1,0 +1,39 @@
+{
+  "schema": "nuxtjp://showcase/v1",
+  "owner": "incusjp",
+  "observedAt": "2026-10-13T04:06:00Z",
+  "entries": [
+    {
+      "id": "incusjp-incus-japan-site",
+      "kind": "oss",
+      "name": {
+        "ja": "incus-japan-site",
+        "en": "incus-japan-site"
+      },
+      "summary": {
+        "ja": "incusjp/incus-japan-site の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "Incusの導入・移行・運用方法を日本語で案内できます。 / Provide Japanese guidance for adopting, migrating and operating Incus."
+      },
+      "repository": "https://github.com/incusjp/incus-japan-site",
+      "homepage": "https://github.com/incusjp/incus-japan-site",
+      "license": "Apache-2.0",
+      "metrics": []
+    },
+    {
+      "id": "incusjp-incus-isolation-adapter",
+      "kind": "oss",
+      "name": {
+        "ja": "incus-isolation-adapter",
+        "en": "incus-isolation-adapter"
+      },
+      "summary": {
+        "ja": "incusjp/incus-isolation-adapter の公開ソース・利用情報。仕様、公開版、権利表示と検証範囲は正本のREADMEで確認できます。",
+        "en": "秘匿情報を除いたIncusの構成情報を、隔離境界の評価用データへ変換できます。Incusへの直接接続は収集側が担当します。 / Turn a sanitized Incus inventory into a document that an isolation-boundary evaluator can read."
+      },
+      "repository": "https://github.com/incusjp/incus-isolation-adapter",
+      "homepage": "https://github.com/incusjp/incus-isolation-adapter",
+      "license": "Apache-2.0",
+      "metrics": []
+    }
+  ]
+}
