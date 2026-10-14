@@ -15,7 +15,7 @@
   "content": {
     "ja": {
       "brand": "Incus Japan",
-      "tagline": "Incusを日本語で、安全に検証するための案内所。",
+      "tagline": "Incusを、日本語で使いこなす。",
       "summary": "Incusの日本語情報、導入・移行・運用手順、上流との差分と検証環境を明示して公開します。",
       "features": [
         {
@@ -140,7 +140,7 @@
     },
     "en": {
       "brand": "Incus Japan",
-      "tagline": "A Japanese guide for verifying Incus safely.",
+      "tagline": "Explore Incus in Japanese.",
       "summary": "Japanese Incus information, installation, migration, and operating guides with explicit upstream differences and test environments.",
       "features": [
         {
