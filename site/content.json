@@ -1,0 +1,863 @@
+{
+  "siteId": "incus-japan",
+  "origin": "https://incus.jp",
+  "defaultLocale": "ja",
+  "locales": {
+    "ja": {
+      "brand": "Incus Japan",
+      "caption": "",
+      "origin": "https://incus.jp",
+      "locale": "ja",
+      "accent": "#7041a4",
+      "navigation": [
+        {
+          "title": "Incusを知る",
+          "href": "/capabilities"
+        },
+        {
+          "title": "活用シーン",
+          "href": "/use-cases"
+        },
+        {
+          "title": "ライブラリ",
+          "href": "/oss"
+        },
+        {
+          "title": "ドキュメント",
+          "href": "/docs"
+        },
+        {
+          "title": "読みもの",
+          "href": "/journal"
+        }
+      ],
+      "pages": [
+        {
+          "path": "/",
+          "title": "Incusを知る。\n環境を、自分の手に。",
+          "summary": "システムコンテナと仮想マシンのためのIncus。日本語で学び、構成を理解し、運用につなげる。",
+          "sections": [
+            {
+              "title": "目的から、次の一歩へ。",
+              "text": "関心のあるテーマから、機能と使い方をご覧ください。",
+              "links": [
+                {
+                  "title": "仕組みから理解する",
+                  "href": "/capabilities/concepts",
+                  "summary": "コンテナと仮想マシン、プロジェクト、ネットワーク。Incusの基本を整理します。",
+                  "icon": "/brand/icons/layers.svg"
+                },
+                {
+                  "title": "小さく試す",
+                  "href": "/capabilities/installation",
+                  "summary": "公式の導入手順を参照し、検証用の環境から始めるための道筋を示します。",
+                  "icon": "/brand/icons/device.svg"
+                },
+                {
+                  "title": "運用を考える",
+                  "href": "/capabilities/operations",
+                  "summary": "構成の分離や確認の観点を学び、用途に合った環境を設計します。",
+                  "icon": "/brand/icons/shield.svg"
+                }
+              ]
+            },
+            {
+              "title": "使い方をイメージする",
+              "text": "用途ごとに、取り組み方と選ぶ道具を整理しています。",
+              "links": [
+                {
+                  "title": "活用シーンを見る",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "ガイドを読む",
+                  "href": "/docs"
+                }
+              ]
+            }
+          ],
+          "kind": "home",
+          "label": "Incus Japan",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/capabilities",
+          "title": "Incusを知る",
+          "summary": "システムコンテナと仮想マシンのためのIncus。日本語で学び、構成を理解し、運用につなげる。",
+          "sections": [
+            {
+              "title": "仕組みから理解する",
+              "text": "コンテナと仮想マシン、プロジェクト、ネットワーク。Incusの基本を整理します。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/capabilities/concepts",
+                  "icon": "/brand/icons/layers.svg"
+                }
+              ]
+            },
+            {
+              "title": "小さく試す",
+              "text": "公式の導入手順を参照し、検証用の環境から始めるための道筋を示します。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/capabilities/installation",
+                  "icon": "/brand/icons/device.svg"
+                }
+              ]
+            },
+            {
+              "title": "運用を考える",
+              "text": "構成の分離や確認の観点を学び、用途に合った環境を設計します。",
+              "links": [
+                {
+                  "title": "詳しく読む",
+                  "href": "/capabilities/operations",
+                  "icon": "/brand/icons/shield.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Incusを知る",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/capabilities/concepts",
+          "title": "仕組みから理解する",
+          "summary": "コンテナと仮想マシン、プロジェクト、ネットワーク。Incusの基本を整理します。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Incusを知る",
+                  "href": "/capabilities"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "仕組みから理解する",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/capabilities/installation",
+          "title": "小さく試す",
+          "summary": "公式の導入手順を参照し、検証用の環境から始めるための道筋を示します。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Incusを知る",
+                  "href": "/capabilities"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "小さく試す",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/capabilities/operations",
+          "title": "運用を考える",
+          "summary": "構成の分離や確認の観点を学び、用途に合った環境を設計します。",
+          "sections": [
+            {
+              "title": "こんなときに",
+              "text": "目的と扱う情報を整理し、必要な機能から小さく組み合わせます。",
+              "links": [
+                {
+                  "title": "使い方を確認する",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "次に進む",
+              "text": "使い方や関連するテーマを、ガイドで確認できます。",
+              "links": [
+                {
+                  "title": "活用シーン",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Incusを知る",
+                  "href": "/capabilities"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "運用を考える",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/use-cases",
+          "title": "使う場面から、考える。",
+          "summary": "目的に合わせて、情報の扱いと道具の選び方を整理します。",
+          "sections": [
+            {
+              "title": "仕組みから理解する",
+              "text": "コンテナと仮想マシン、プロジェクト、ネットワーク。Incusの基本を整理します。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/capabilities/concepts",
+                  "icon": "/brand/icons/layers.svg"
+                }
+              ]
+            },
+            {
+              "title": "小さく試す",
+              "text": "公式の導入手順を参照し、検証用の環境から始めるための道筋を示します。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/capabilities/installation",
+                  "icon": "/brand/icons/device.svg"
+                }
+              ]
+            },
+            {
+              "title": "運用を考える",
+              "text": "構成の分離や確認の観点を学び、用途に合った環境を設計します。",
+              "links": [
+                {
+                  "title": "機能を見る",
+                  "href": "/capabilities/operations",
+                  "icon": "/brand/icons/shield.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "使う場面から、考える。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/oss",
+          "title": "目的に合った部品を探す",
+          "summary": "カテゴリとキーワードから、公開ライブラリとソースを探せます。",
+          "sections": [],
+          "kind": "catalog",
+          "label": "目的に合った部品を探す",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs",
+          "title": "ガイドとドキュメント",
+          "summary": "目的に合わせて、使い方と設計の考え方を確認できます。",
+          "sections": [
+            {
+              "title": "はじめの一歩",
+              "text": "目的を確認し、必要な機能から始めましょう。",
+              "links": [
+                {
+                  "title": "導入ガイド",
+                  "href": "/docs/getting-started"
+                },
+                {
+                  "title": "安全に使うために",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "ガイドとドキュメント",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs/getting-started",
+          "title": "はじめる前に、道筋をつかむ。",
+          "summary": "機能、使う場面、データの扱いを確認するためのガイドです。",
+          "sections": [
+            {
+              "title": "目的を選ぶ",
+              "text": "取り組む内容を機能や用途のページで確認します。",
+              "links": [
+                {
+                  "title": "Incusを知る",
+                  "href": "/capabilities"
+                }
+              ]
+            },
+            {
+              "title": "利用条件を確認する",
+              "text": "導入するソフトウェアの対応環境、ライセンス、提供版を確認してください。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "はじめる前に、道筋をつかむ。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/journal",
+          "title": "考え方と、実践の記録。",
+          "summary": "設計、開発、AI活用のテーマから、読みものをお届けします。",
+          "sections": [
+            {
+              "title": "テーマから読む",
+              "text": "記事と合わせて、関連するガイドもご覧いただけます。",
+              "links": [
+                {
+                  "title": "設計と使い方",
+                  "href": "/docs"
+                },
+                {
+                  "title": "情報の扱い",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "journal",
+          "label": "考え方と、実践の記録。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/privacy",
+          "title": "プライバシー",
+          "summary": "このサイトで扱う情報について。",
+          "sections": [
+            {
+              "title": "閲覧時の情報",
+              "text": "このサイトは静的なページを配信します。配信とセキュリティのため、配信事業者がIPアドレスなどの通信情報を処理します。独自のアクセス解析やログイン機能は設置していません。",
+              "links": []
+            },
+            {
+              "title": "外部サイト",
+              "text": "外部リンク先では、それぞれのプライバシー方針をご確認ください。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "プライバシー",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/security",
+          "title": "安心して使うために。",
+          "summary": "情報と操作の範囲を確かめるための基本的な考え方。",
+          "sections": [
+            {
+              "title": "秘密情報を共有しない",
+              "text": "公開のIssueや問い合わせに、パスワード、トークン、個人情報を記載しないでください。",
+              "links": []
+            },
+            {
+              "title": "操作の前に確認する",
+              "text": "対象と権限を確かめ、必要な範囲だけを許可してください。製品ごとの利用ガイドとセキュリティ方針も確認してください。",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "安心して使うために。",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/sitemap",
+          "title": "サイトマップ",
+          "summary": "ページを一覧から探す。",
+          "sections": [],
+          "kind": "page",
+          "label": "サイトマップ",
+          "category": "",
+          "status": "published"
+        }
+      ],
+      "resources": [
+        {
+          "title": "incus-japan-site",
+          "summary": "Incusの導入・移行・運用方法を日本語で案内できます。",
+          "href": "https://github.com/incusjp/incus-japan-site",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "incus-isolation-adapter",
+          "summary": "秘匿情報を除いたIncusの構成情報を、隔離境界の評価用データへ変換できます。Incusへの直接接続は収集側が担当します。",
+          "href": "https://github.com/incusjp/incus-isolation-adapter",
+          "category": "外部連携",
+          "license": "Apache-2.0"
+        }
+      ],
+      "icon": "/brand/icon.svg"
+    },
+    "en": {
+      "brand": "Incus Japan",
+      "caption": "",
+      "origin": "https://incus.jp",
+      "locale": "en",
+      "accent": "#7041a4",
+      "navigation": [
+        {
+          "title": "Discover Incus",
+          "href": "/capabilities"
+        },
+        {
+          "title": "Use cases",
+          "href": "/use-cases"
+        },
+        {
+          "title": "Libraries",
+          "href": "/oss"
+        },
+        {
+          "title": "Docs",
+          "href": "/docs"
+        },
+        {
+          "title": "Journal",
+          "href": "/journal"
+        }
+      ],
+      "pages": [
+        {
+          "path": "/",
+          "title": "Understand Incus.\nOwn your environment.",
+          "summary": "Learn about system containers and virtual machines with Japanese-language entry points to Incus.",
+          "sections": [
+            {
+              "title": "Find your next step.",
+              "text": "Explore capabilities and guides by the work you want to do.",
+              "links": [
+                {
+                  "title": "Understand the model",
+                  "href": "/capabilities/concepts",
+                  "summary": "Explore containers, virtual machines, projects and networking.",
+                  "icon": "/brand/icons/layers.svg"
+                },
+                {
+                  "title": "Start with a test environment",
+                  "href": "/capabilities/installation",
+                  "summary": "Find the official installation guides and a path for a small evaluation.",
+                  "icon": "/brand/icons/device.svg"
+                },
+                {
+                  "title": "Plan operations",
+                  "href": "/capabilities/operations",
+                  "summary": "Consider isolation and verification when designing an environment for your workload.",
+                  "icon": "/brand/icons/shield.svg"
+                }
+              ]
+            },
+            {
+              "title": "Explore the possibilities",
+              "text": "Find a workflow and the tools that fit your use case.",
+              "links": [
+                {
+                  "title": "Explore use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Read the guides",
+                  "href": "/docs"
+                }
+              ]
+            }
+          ],
+          "kind": "home",
+          "label": "Incus Japan",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/capabilities",
+          "title": "Discover Incus",
+          "summary": "Learn about system containers and virtual machines with Japanese-language entry points to Incus.",
+          "sections": [
+            {
+              "title": "Understand the model",
+              "text": "Explore containers, virtual machines, projects and networking.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/capabilities/concepts",
+                  "icon": "/brand/icons/layers.svg"
+                }
+              ]
+            },
+            {
+              "title": "Start with a test environment",
+              "text": "Find the official installation guides and a path for a small evaluation.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/capabilities/installation",
+                  "icon": "/brand/icons/device.svg"
+                }
+              ]
+            },
+            {
+              "title": "Plan operations",
+              "text": "Consider isolation and verification when designing an environment for your workload.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/capabilities/operations",
+                  "icon": "/brand/icons/shield.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Discover Incus",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/capabilities/concepts",
+          "title": "Understand the model",
+          "summary": "Explore containers, virtual machines, projects and networking.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Discover Incus",
+                  "href": "/capabilities"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Understand the model",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/capabilities/installation",
+          "title": "Start with a test environment",
+          "summary": "Find the official installation guides and a path for a small evaluation.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Discover Incus",
+                  "href": "/capabilities"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Start with a test environment",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/capabilities/operations",
+          "title": "Plan operations",
+          "summary": "Consider isolation and verification when designing an environment for your workload.",
+          "sections": [
+            {
+              "title": "When to use it",
+              "text": "Start with the information and outcome you need, then combine focused capabilities.",
+              "links": [
+                {
+                  "title": "Read the guide",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
+              "title": "Next steps",
+              "text": "Explore the guides and related topics.",
+              "links": [
+                {
+                  "title": "Use cases",
+                  "href": "/use-cases"
+                },
+                {
+                  "title": "Discover Incus",
+                  "href": "/capabilities"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Plan operations",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/use-cases",
+          "title": "Start with the work.",
+          "summary": "Explore approaches to organizing information and selecting tools.",
+          "sections": [
+            {
+              "title": "Understand the model",
+              "text": "Explore containers, virtual machines, projects and networking.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/capabilities/concepts",
+                  "icon": "/brand/icons/layers.svg"
+                }
+              ]
+            },
+            {
+              "title": "Start with a test environment",
+              "text": "Find the official installation guides and a path for a small evaluation.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/capabilities/installation",
+                  "icon": "/brand/icons/device.svg"
+                }
+              ]
+            },
+            {
+              "title": "Plan operations",
+              "text": "Consider isolation and verification when designing an environment for your workload.",
+              "links": [
+                {
+                  "title": "Explore the capability",
+                  "href": "/capabilities/operations",
+                  "icon": "/brand/icons/shield.svg"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Start with the work.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/oss",
+          "title": "Find the right building blocks",
+          "summary": "Browse public libraries and source by category and keyword.",
+          "sections": [],
+          "kind": "catalog",
+          "label": "Find the right building blocks",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs",
+          "title": "Guides and documentation",
+          "summary": "Explore usage guides and design principles.",
+          "sections": [
+            {
+              "title": "Getting started",
+              "text": "Start with your goal and the capabilities you need.",
+              "links": [
+                {
+                  "title": "Getting started",
+                  "href": "/docs/getting-started"
+                },
+                {
+                  "title": "Security guide",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "page",
+          "label": "Guides and documentation",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/docs/getting-started",
+          "title": "Find a path before getting started.",
+          "summary": "A guide to capabilities, use cases and data boundaries.",
+          "sections": [
+            {
+              "title": "Choose a goal",
+              "text": "Explore the capability or use-case pages for the work you have in mind.",
+              "links": [
+                {
+                  "title": "Discover Incus",
+                  "href": "/capabilities"
+                }
+              ]
+            },
+            {
+              "title": "Review usage conditions",
+              "text": "Check the supported environment, license and available release of the software you select.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "Find a path before getting started.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/journal",
+          "title": "Ideas and practice.",
+          "summary": "Writing about design, development and the thoughtful use of AI.",
+          "sections": [
+            {
+              "title": "Explore by topic",
+              "text": "Explore the related guides while new stories are being prepared.",
+              "links": [
+                {
+                  "title": "Design and usage",
+                  "href": "/docs"
+                },
+                {
+                  "title": "Information boundaries",
+                  "href": "/security"
+                }
+              ]
+            }
+          ],
+          "kind": "journal",
+          "label": "Ideas and practice.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/privacy",
+          "title": "Privacy",
+          "summary": "How information is handled on this site.",
+          "sections": [
+            {
+              "title": "Browsing information",
+              "text": "This site serves static pages. The hosting provider processes connection information, including IP addresses, for delivery and security. No site-operated analytics or login is installed.",
+              "links": []
+            },
+            {
+              "title": "External sites",
+              "text": "External sites have their own privacy policies.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "Privacy",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/security",
+          "title": "Use tools with confidence.",
+          "summary": "Principles for understanding information and operation boundaries.",
+          "sections": [
+            {
+              "title": "Protect credentials",
+              "text": "Do not include passwords, tokens or personal data in public issues or inquiries.",
+              "links": []
+            },
+            {
+              "title": "Review before operating",
+              "text": "Check targets and permissions and authorize only what is needed. Review the guide and security policy for each product.",
+              "links": []
+            }
+          ],
+          "kind": "page",
+          "label": "Use tools with confidence.",
+          "category": "",
+          "status": "published"
+        },
+        {
+          "path": "/sitemap",
+          "title": "Sitemap",
+          "summary": "Find a page by name.",
+          "sections": [],
+          "kind": "page",
+          "label": "Sitemap",
+          "category": "",
+          "status": "published"
+        }
+      ],
+      "resources": [
+        {
+          "title": "incus-japan-site",
+          "summary": "Provide Japanese guidance for adopting, migrating and operating Incus.",
+          "href": "https://github.com/incusjp/incus-japan-site",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "incus-isolation-adapter",
+          "summary": "Turn a sanitized Incus inventory into a document that an isolation-boundary evaluator can read.",
+          "href": "https://github.com/incusjp/incus-isolation-adapter",
+          "category": "Integrations",
+          "license": "Apache-2.0"
+        }
+      ],
+      "icon": "/brand/icon.svg"
+    }
+  }
+}
