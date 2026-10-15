@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "repository": "incusjp/incus-japan-site",
+  "defaultBranch": "main",
+  "requiredWorkflows": [
+    "site.yml"
+  ],
+  "sites": [
+    {
+      "id": "incus-japan",
+      "version": "0.1.0",
+      "account": "0655772369a7b3425e3398313a36521b",
+      "worker": "incus-japan-site",
+      "domain": "incus.jp",
+      "origin": "https://incus.jp",
+      "environment": "site-production-incus-japan",
+      "siteConfig": "sites/incus-japan/site.config.json",
+      "appDirectory": ".",
+      "assetDirectory": ".output/incus-japan/public",
+      "buildKind": "organization",
+      "zone": "7a209d09012c7711bacecea0017da887"
+    }
+  ]
+}
