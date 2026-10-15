@@ -17,7 +17,8 @@
       "siteConfig": "sites/incus-japan/site.config.json",
       "appDirectory": ".",
       "assetDirectory": ".output/incus-japan/public",
-      "buildKind": "organization"
+      "buildKind": "organization",
+      "zone": "7a209d09012c7711bacecea0017da887"
     }
   ]
 }
