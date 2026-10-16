@@ -25,10 +25,6 @@
         {
           "title": "ドキュメント",
           "href": "/docs"
-        },
-        {
-          "title": "読みもの",
-          "href": "/journal"
         }
       ],
       "pages": [
@@ -38,8 +34,8 @@
           "summary": "システムコンテナと仮想マシンのためのIncus。日本語で学び、構成を理解し、運用につなげる。",
           "sections": [
             {
-              "title": "目的から、次の一歩へ。",
-              "text": "関心のあるテーマから、機能と使い方をご覧ください。",
+              "title": "Incusの基本を知る",
+              "text": "コンテナや仮想マシンを扱うIncusの基本から、公式の導入手順へ案内します。",
               "links": [
                 {
                   "title": "仕組みから理解する",
@@ -62,8 +58,8 @@
               ]
             },
             {
-              "title": "使い方をイメージする",
-              "text": "用途ごとに、取り組み方と選ぶ道具を整理しています。",
+              "title": "導入後の構成と連携を調べる",
+              "text": "Incus本体は上流プロジェクトが開発しています。公式情報と、この組織の連携アダプターを分けて紹介します。",
               "links": [
                 {
                   "title": "活用シーンを見る",
@@ -307,8 +303,8 @@
         },
         {
           "path": "/use-cases",
-          "title": "使う場面から、考える。",
-          "summary": "目的に合わせて、情報の扱いと道具の選び方を整理します。",
+          "title": "Incusを使った環境づくり",
+          "summary": "各場面から、Incus Japanの使い方と関連するガイドへ進めます。",
           "sections": [
             {
               "title": "仕組みから理解する",
@@ -342,7 +338,7 @@
             }
           ],
           "kind": "page",
-          "label": "使う場面から、考える。",
+          "label": "Incusを使った環境づくり",
           "category": "",
           "status": "published"
         },
@@ -358,7 +354,7 @@
         },
         {
           "path": "/docs",
-          "title": "ガイドとドキュメント",
+          "title": "Incus Japanのガイド",
           "summary": "機能別に、実装のREADMEと使い方を確認できます。",
           "sections": [
             {
@@ -393,7 +389,7 @@
             }
           ],
           "kind": "page",
-          "label": "ガイドとドキュメント",
+          "label": "Incus Japanのガイド",
           "category": "",
           "status": "published"
         },
@@ -545,7 +541,11 @@
           "license": "Apache-2.0"
         }
       ],
-      "icon": "/brand/icon.svg"
+      "icon": "/brand/icon.svg",
+      "secondaryAction": {
+        "title": "導入・ドキュメント",
+        "href": "/docs"
+      }
     },
     "en": {
       "brand": "Incus Japan",
@@ -569,10 +569,6 @@
         {
           "title": "Docs",
           "href": "/docs"
-        },
-        {
-          "title": "Journal",
-          "href": "/journal"
         }
       ],
       "pages": [
@@ -582,8 +578,8 @@
           "summary": "Learn about system containers and virtual machines with Japanese-language entry points to Incus.",
           "sections": [
             {
-              "title": "Find your next step.",
-              "text": "Explore capabilities and guides by the work you want to do.",
+              "title": "Understand Incus",
+              "text": "Start with Incus concepts and continue to the official installation instructions.",
               "links": [
                 {
                   "title": "Understand the model",
@@ -606,8 +602,8 @@
               ]
             },
             {
-              "title": "Explore the possibilities",
-              "text": "Find a workflow and the tools that fit your use case.",
+              "title": "Explore configuration and integration",
+              "text": "Incus is developed upstream. Official resources and this organization’s integration adapter are presented separately.",
               "links": [
                 {
                   "title": "Explore use cases",
@@ -851,8 +847,8 @@
         },
         {
           "path": "/use-cases",
-          "title": "Start with the work.",
-          "summary": "Explore approaches to organizing information and selecting tools.",
+          "title": "Build environments with Incus",
+          "summary": "Explore Incus Japan through specific scenarios and related guides.",
           "sections": [
             {
               "title": "Understand the model",
@@ -886,7 +882,7 @@
             }
           ],
           "kind": "page",
-          "label": "Start with the work.",
+          "label": "Build environments with Incus",
           "category": "",
           "status": "published"
         },
@@ -902,7 +898,7 @@
         },
         {
           "path": "/docs",
-          "title": "Guides and documentation",
+          "title": "Incus Japan guides",
           "summary": "Find implementation READMEs and usage by capability.",
           "sections": [
             {
@@ -937,7 +933,7 @@
             }
           ],
           "kind": "page",
-          "label": "Guides and documentation",
+          "label": "Incus Japan guides",
           "category": "",
           "status": "published"
         },
@@ -1089,7 +1085,11 @@
           "license": "Apache-2.0"
         }
       ],
-      "icon": "/brand/icon.svg"
+      "icon": "/brand/icon.svg",
+      "secondaryAction": {
+        "title": "Setup & documentation",
+        "href": "/docs"
+      }
     }
   }
 }
