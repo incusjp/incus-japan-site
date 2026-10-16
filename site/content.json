@@ -358,6 +358,16 @@
           "summary": "機能別に、実装のREADMEと使い方を確認できます。",
           "sections": [
             {
+              "title": "はじめて使う方へ",
+              "text": "目的に合う実装を選び、各プロジェクトの導入手順へ進みます。",
+              "links": [
+                {
+                  "title": "導入ガイド",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
               "title": "Incusの仕組み",
               "text": "コンテナと仮想マシンを管理するIncus本体と、公式ドキュメントを確認する。",
               "links": [
@@ -420,10 +430,6 @@
               "title": "READMEから始める",
               "text": "環境の準備・利用例・検証コマンドを確認してから導入してください。",
               "links": [
-                {
-                  "title": "incus — README",
-                  "href": "https://github.com/lxc/incus/blob/main/README.md"
-                },
                 {
                   "title": "incus — README",
                   "href": "https://github.com/lxc/incus/blob/main/README.md"
@@ -902,6 +908,16 @@
           "summary": "Find implementation READMEs and usage by capability.",
           "sections": [
             {
+              "title": "Start here",
+              "text": "Choose an implementation for your needs and continue to its setup instructions.",
+              "links": [
+                {
+                  "title": "Getting started",
+                  "href": "/docs/getting-started"
+                }
+              ]
+            },
+            {
               "title": "Understand Incus",
               "text": "Explore the upstream Incus implementation and official documentation.",
               "links": [
@@ -964,10 +980,6 @@
               "title": "Start with the README",
               "text": "Check prerequisites, examples and verification commands before adoption.",
               "links": [
-                {
-                  "title": "incus — README",
-                  "href": "https://github.com/lxc/incus/blob/main/README.md"
-                },
                 {
                   "title": "incus — README",
                   "href": "https://github.com/lxc/incus/blob/main/README.md"
