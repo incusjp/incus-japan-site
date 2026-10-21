@@ -1,0 +1,100 @@
+{
+  "ja": {
+    "category": "Incusの日本語情報",
+    "primary": {
+      "href": "/capabilities/installation",
+      "title": "導入方法を見る"
+    },
+    "secondary": {
+      "href": "/capabilities/concepts",
+      "title": "Incusを知る"
+    },
+    "pathsTitle": "何をお探しですか？",
+    "paths": [
+      {
+        "href": "/capabilities/concepts",
+        "title": "まずIncusを知る",
+        "summary": "コンテナとVMの基本"
+      },
+      {
+        "href": "/capabilities/installation",
+        "title": "環境に導入する",
+        "summary": "公式手順と対応環境へ"
+      },
+      {
+        "href": "/use-cases",
+        "title": "使いどころを探す",
+        "summary": "開発環境と運用の構成例"
+      }
+    ],
+    "preview": {
+      "kind": "environment",
+      "label": "使い方のイメージ",
+      "title": "コンテナとVMを、身近な道具に。",
+      "rows": [
+        {
+          "label": "Incus",
+          "detail": "システムコンテナと仮想マシン"
+        },
+        {
+          "label": "利用する環境",
+          "detail": "対応するホストと構成を選ぶ"
+        },
+        {
+          "label": "公式情報へ",
+          "detail": "検証する手順と仕様を読む"
+        }
+      ],
+      "outcome": "公式upstreamと日本語情報をつなぐ。"
+    }
+  },
+  "en": {
+    "category": "Incus resources in Japanese",
+    "primary": {
+      "href": "/capabilities/installation",
+      "title": "Explore installation"
+    },
+    "secondary": {
+      "href": "/capabilities/concepts",
+      "title": "Understand Incus"
+    },
+    "pathsTitle": "What brings you here?",
+    "paths": [
+      {
+        "href": "/capabilities/concepts",
+        "title": "Understand Incus",
+        "summary": "Understand containers and virtual machines"
+      },
+      {
+        "href": "/capabilities/installation",
+        "title": "Set up an environment",
+        "summary": "Find official setup and platform information"
+      },
+      {
+        "href": "/use-cases",
+        "title": "Explore use cases",
+        "summary": "Explore development and operation patterns"
+      }
+    ],
+    "preview": {
+      "kind": "environment",
+      "label": "Workflow illustration",
+      "title": "Containers and VMs, within reach.",
+      "rows": [
+        {
+          "label": "Incus",
+          "detail": "System containers and virtual machines"
+        },
+        {
+          "label": "Your environment",
+          "detail": "Choose a supported host and configuration"
+        },
+        {
+          "label": "Official resources",
+          "detail": "Review procedures and specifications"
+        }
+      ],
+      "outcome": "Connecting Japanese readers to upstream."
+    }
+  }
+}
