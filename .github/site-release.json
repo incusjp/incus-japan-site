@@ -18,7 +18,8 @@
       "appDirectory": ".",
       "assetDirectory": ".output/incus-japan/public",
       "buildKind": "organization",
-      "zone": "7a209d09012c7711bacecea0017da887"
+      "zone": "7a209d09012c7711bacecea0017da887",
+      "documentDirectory": "site"
     }
   ]
 }
