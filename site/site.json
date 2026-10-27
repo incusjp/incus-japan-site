@@ -1,0 +1,145 @@
+{
+  "siteId": "incus-japan",
+  "origin": "https://incus.jp",
+  "defaultLocale": "ja",
+  "locales": {
+    "ja": {
+      "brand": "Incus Japan",
+      "caption": "",
+      "origin": "https://incus.jp",
+      "locale": "ja",
+      "accent": "#805080",
+      "navigation": [
+        {
+          "title": "Incusを知る",
+          "href": "/capabilities"
+        },
+        {
+          "title": "活用シーン",
+          "href": "/use-cases"
+        },
+        {
+          "title": "ライブラリ",
+          "href": "/oss"
+        },
+        {
+          "title": "ドキュメント",
+          "href": "/docs"
+        }
+      ],
+      "resources": [
+        {
+          "title": "incus",
+          "href": "https://github.com/lxc/incus",
+          "summary": "システムコンテナと仮想マシンを管理するIncus本体。",
+          "category": "Incusの仕組み",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "incus-japan-site",
+          "summary": "Incusの導入・移行・運用方法を日本語で案内できます。",
+          "href": "https://github.com/incusjp/incus-japan-site",
+          "category": "プロジェクト情報",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "incus-isolation-adapter",
+          "summary": "秘匿情報を除いたIncusの構成情報を、隔離境界の評価用データへ変換できます。Incusへの直接接続は収集側が担当します。",
+          "href": "https://github.com/incusjp/incus-isolation-adapter",
+          "category": "構成情報と隔離境界",
+          "license": "Apache-2.0"
+        }
+      ],
+      "icon": "/brand/icon.svg",
+      "secondaryAction": {
+        "title": "導入・ドキュメント",
+        "href": "/docs"
+      },
+      "pageOrder": [
+        "/",
+        "/capabilities",
+        "/capabilities/concepts",
+        "/capabilities/installation",
+        "/capabilities/operations",
+        "/use-cases",
+        "/oss",
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap"
+      ]
+    },
+    "en": {
+      "brand": "Incus Japan",
+      "caption": "",
+      "origin": "https://incus.jp",
+      "locale": "en",
+      "accent": "#805080",
+      "navigation": [
+        {
+          "title": "Discover Incus",
+          "href": "/capabilities"
+        },
+        {
+          "title": "Use cases",
+          "href": "/use-cases"
+        },
+        {
+          "title": "Libraries",
+          "href": "/oss"
+        },
+        {
+          "title": "Docs",
+          "href": "/docs"
+        }
+      ],
+      "resources": [
+        {
+          "title": "incus",
+          "href": "https://github.com/lxc/incus",
+          "summary": "The upstream Incus system container and virtual machine manager.",
+          "category": "Understand Incus",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "incus-japan-site",
+          "summary": "Provide Japanese guidance for adopting, migrating and operating Incus.",
+          "href": "https://github.com/incusjp/incus-japan-site",
+          "category": "Project information",
+          "license": "Apache-2.0"
+        },
+        {
+          "title": "incus-isolation-adapter",
+          "summary": "Turn a sanitized Incus inventory into a document that an isolation-boundary evaluator can read.",
+          "href": "https://github.com/incusjp/incus-isolation-adapter",
+          "category": "Inventory and isolation",
+          "license": "Apache-2.0"
+        }
+      ],
+      "icon": "/brand/icon.svg",
+      "secondaryAction": {
+        "title": "Setup & documentation",
+        "href": "/docs"
+      },
+      "pageOrder": [
+        "/",
+        "/capabilities",
+        "/capabilities/concepts",
+        "/capabilities/installation",
+        "/capabilities/operations",
+        "/use-cases",
+        "/oss",
+        "/docs",
+        "/docs/getting-started",
+        "/journal",
+        "/contact",
+        "/privacy",
+        "/security",
+        "/sitemap"
+      ]
+    }
+  }
+}
