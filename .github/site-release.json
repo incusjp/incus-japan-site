@@ -8,7 +8,7 @@
   "sites": [
     {
       "id": "incus-japan",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "account": "0655772369a7b3425e3398313a36521b",
       "worker": "incus-japan-site",
       "domain": "incus.jp",
@@ -18,7 +18,8 @@
       "appDirectory": ".",
       "assetDirectory": ".output/incus-japan/public",
       "buildKind": "organization",
-      "zone": "7a209d09012c7711bacecea0017da887"
+      "zone": "7a209d09012c7711bacecea0017da887",
+      "documentDirectory": "site"
     }
   ]
 }
