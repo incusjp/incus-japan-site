@@ -2,6 +2,7 @@
   "schemaVersion": 1,
   "repository": "incusjp/incus-japan-site",
   "defaultBranch": "main",
+  "requiredChecks": ["repository-policy", "site (incus-japan)"],
   "requiredWorkflows": [
     "site.yml"
   ],
