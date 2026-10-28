@@ -264,6 +264,14 @@ def verify_main_protection(contract, token):
               for c in rule.get('parameters', {}).get('required_status_checks', [])}
     if not set(expected).issubset(checks):
         raise ValueError('Main required checks are incomplete')
+    for rule in rules:
+        if rule.get('type') not in ('pull_request', 'required_status_checks'):
+            continue
+        if rule.get('ruleset_source_type') != 'Repository' or rule.get('ruleset_source') != contract['repository'] or not isinstance(rule.get('ruleset_id'), int):
+            raise ValueError('Unreviewed inherited main protection')
+        details = request(f"https://api.github.com/repos/{contract['repository']}/rulesets/{rule['ruleset_id']}", token)
+        if details.get('enforcement') != 'active' or details.get('bypass_actors'):
+            raise ValueError('Main ruleset permits unreviewed bypass')
 
 
 def deploy(root, contract, site, output, expected):
@@ -353,6 +361,7 @@ def main():
     site = selected_site(root, contract, os.environ)
     if is_main:
         admit_main(root, contract, os.environ)
+        verify_main_protection(contract, os.environ['GH_TOKEN'])
     if mode == 'plan':
         if not is_main:
             admit(root, contract, os.environ)

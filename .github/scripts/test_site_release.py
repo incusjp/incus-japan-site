@@ -76,14 +76,17 @@ class SiteReleaseTests(unittest.TestCase):
 
     def test_automatic_release_requires_pull_requests_and_all_declared_checks(self):
         contract = {**self.contract, 'requiredChecks': ['policy', 'site']}
-        rules = [{'type': 'pull_request'}, {'type': 'required_status_checks', 'parameters': {
+        metadata = {'ruleset_id': 1, 'ruleset_source_type': 'Repository', 'ruleset_source': 'example/site'}
+        rules = [{**metadata, 'type': 'pull_request'}, {**metadata, 'type': 'required_status_checks', 'parameters': {
             'required_status_checks': [{'context': 'policy'}, {'context': 'site'}]}}]
-        with patch('site_release.request', return_value=rules):
+        with patch('site_release.request', side_effect=[rules, {'enforcement': 'active', 'bypass_actors': []}, {'enforcement': 'active', 'bypass_actors': []}]):
             verify_main_protection(contract, 'synthetic')
         for bad in [[], rules[:1], [rules[1]], [rules[0], {'type': 'required_status_checks', 'parameters': {'required_status_checks': [{'context': 'policy'}]}}]]:
             with patch('site_release.request', return_value=bad), self.assertRaises(ValueError):
                 verify_main_protection(contract, 'synthetic')
         with self.assertRaises(ValueError): verify_main_protection(self.contract, 'synthetic')
+        with patch('site_release.request', side_effect=[rules, {'enforcement': 'active', 'bypass_actors': [{'actor_id': 1}]}]), self.assertRaises(ValueError):
+            verify_main_protection(contract, 'synthetic')
 
     def test_output_traversal_symlink_and_environment_output_injection_rejected(self):
         for key,value in [('assetDirectory','../public'),('appDirectory','./\nother=bad'),('environment','site-production-x\nother=bad')]:
